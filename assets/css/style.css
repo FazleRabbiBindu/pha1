@@ -10,7 +10,8 @@
     width: 1320px;
     background: linear-gradient(180deg, #070211 0%, #07021100 100%), url("../images/BannerImage.png");
     background-repeat: no-repeat;
-    margin: 0px 110px;
+    /* margin: 0px 110px; */
+    margin: 120px auto 48px auto;
     padding: 0px;
     border-radius: 16px;
     background-color: blueviolet;
