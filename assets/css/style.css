@@ -480,6 +480,8 @@
 }
 .footer-row-social{
     padding-left: 480px;
+    text-decoration: none;
+    color: black;
 }
 .social-image{
     margin: 0px 5px 0 5px;
