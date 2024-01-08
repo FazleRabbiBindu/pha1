@@ -359,6 +359,12 @@
     margin-bottom: 48px;
 }
 
+.portfolio-images{
+    transform: transform .3s ease-in-out;
+}
+.portfolio-images> img:hover{
+    transform: scale(0.8);
+}
 /* newsletter block */
 .newsletterblock{
     width: 1320px;
