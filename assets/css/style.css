@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700;800&family=Merriweather:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 .header {
     font-family: 'Merriweather', serif;
@@ -11,18 +10,23 @@
     width: 1320px;
     background: linear-gradient(180deg, #070211 0%, #07021100 100%), url("../images/BannerImage.png");
     background-repeat: no-repeat;
-    /* background-size: auto 600px; */
-    margin: 50px 110px;
+    margin: 0px 110px;
+    padding: 0px;
+    border-radius: 16px;
     background-color: blueviolet;
 }
-.banner-title{
+
+.banner-title {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
     font-size: 32px;
     padding-top: 200px;
+    margin: 0px;
+    ;
 }
-.banner-big-title{
+
+.banner-big-title {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
@@ -30,34 +34,172 @@
     margin: 0 20%;
 }
 
-.discount-block{
+.discount-block {
     display: flex;
     flex-direction: column;
 }
-.discount{
-    font-family: Inter;
+
+.discount {
+    margin: 120px auto 48px auto;
     color: #F00;
-    font-size: 88px;
     text-align: center;
-    margin-bottom: 0px;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    /* background-color: #070211; */
 }
 
-.discount-title{
+.discount-title {
+    margin: 0px auto 16px auto;
     color: #F00;
     text-align: center;
     font-family: Inter;
     font-size: 24px;
-    margin-bottom: 0px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
-.category{
+
+.category {
+    margin: 0px auto 48px auto;
     color: #070211;
     text-align: center;
     font-family: Inter;
     font-size: 48px;
-    margin-top: 0px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
-.new-year{
-    height: 500px;
-    width: 800px;
-    padding: 0 2590px 0 259px;
+
+.new-year {
+    margin: 0px auto 120px auto;
+}
+
+/* party block */
+.party-block{
+    margin-bottom: 120px ;
+}
+.party-background {
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Vectorrr.png");
+    background-repeat: no-repeat;
+    margin: 0px auto 120px auto;
+    padding: 0px;
+    border-radius: 16px;
+    background-color: blueviolet;
+    display: flex;
+}
+
+.partyblock-column-content{
+    width: 60%;
+}
+.partyblock-column-content>.partyblock-title {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    margin: 126px auto 24px 126px;
+}
+
+.partyblock-column-content> .partyblock-description{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: auto auto 48px 126px;
+}
+.partyblock-column-content> .partyblock-join{
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: auto auto 142px 158px;
+}
+.partyblock-column-image {
+    margin-top: 64px;
+    margin-left: 94px;
+}
+
+/* venu block */
+.venublock{
+    width: 1320px;
+    height: 482px;
+    margin: 120px auto;
+    border-radius: 16px;
+    /* background-color: ; */
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+
+}
+.venu-container{
+    padding: 100px;
+    /* background-color: #F00; */
+    text-align: center;
+}
+.venu-item{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; /* 175% */
+    text-transform: capitalize;
+    padding: 0px;
+    margin: 0px;
+}
+.venu-item-details{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    padding: 0px;
+    margin: 0px;
+}
+.venu-btn{
+    margin-top: 48px;
+    border: 0px;
+    border-radius: 8px;
+    background: #F00;
+    width: 135px;
+    height: 40px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+/* offer section */
+.offer-container{
+    margin: 120px 140px;
+    display: flex;
+}
+.offer-column{
+    width: 33%;
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
